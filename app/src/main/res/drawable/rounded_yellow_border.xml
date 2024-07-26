@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer yellow border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFEB3B" /> <!-- Yellow color for the outer border -->
+<!--            <stroke-->
+<!--                android:width="4dp" &lt;!&ndash; Increase the width as desired &ndash;&gt;-->
+<!--                android:color="#FFFFEB3B" /> &lt;!&ndash; Use the same color as solid for consistency &ndash;&gt;-->
+            <corners android:radius="22dp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+    <!-- Inner grey background -->
+    <item android:left="4dp" android:right="4dp" android:top="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/darker_gray" /> <!-- Background color inside the border -->
+            <corners android:radius="20dp" /> <!-- Adjust the radius to match the outer radius -->
+        </shape>
+    </item>
+</layer-list>

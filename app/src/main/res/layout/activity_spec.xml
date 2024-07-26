@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <!-- Enclosing LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+
+        <!-- HorizontalScrollView for images -->
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewImages"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutImages"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/product_background"
+                android:orientation="horizontal">
+
+                <!-- Example ImageView for each image. More can be added dynamically -->
+                <ImageView
+                    android:id="@+id/imageViewProduct"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:padding="4dp"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="false"
+                    android:foregroundGravity="center"
+                    android:background="@drawable/rounded_corners_background" />
+
+                <!-- Add more ImageViews dynamically if needed -->
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Product details -->
+        <TextView
+            android:id="@+id/textViewProductNameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Product Name"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewProductCategoryDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textColor="@color/secondaryTextColor" />
+
+        <TextView
+            android:id="@+id/textViewProductPriceDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Price"
+            android:textSize="20sp"
+            android:textColor="@color/priceTextColor"
+            android:textStyle="bold" />
+
+        <!-- Bid button -->
+        <Button
+            android:id="@+id/buttonBid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Bid"
+            android:backgroundTint="@color/primary"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:cornerRadius="8dp"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="633dp"
+        android:gravity="center"
+        android:text="Details"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</RelativeLayout>

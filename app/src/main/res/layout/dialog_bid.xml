@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/textViewEnterBid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your bid"
+        android:textSize="18sp"
+        android:textColor="@color/primaryTextColor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextBidValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bid Amount"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/textViewEnterBid"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:id="@+id/buttonSubmitBid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@color/primary"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextBidValue"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"/>
+
+</RelativeLayout>

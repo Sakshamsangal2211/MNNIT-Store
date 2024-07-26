@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977857190671",
+    "project_id": "jojo-cdab8",
+    "storage_bucket": "jojo-cdab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977857190671:android:3a20352e2b67991f1a7c7a",
+        "android_client_info": {
+          "package_name": "com.example.jojo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeEpPYQg8uWan7YjXVgvPu8n3Gy1Z3JPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

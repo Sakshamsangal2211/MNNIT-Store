@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#FFFFFF</color>
+    <color name="primary">#6200EE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+       <color name="backgroundColor">#FAFAFA</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="priceTextColor">#D32F2F</color>
+     <color name="highlightColor">#FFC107</color>
+    <color name="productBackground">#F5F5F5</color>
+    <color name="productItemBackground">#FFFFFF</color>
+     <color name="buttonContainerBackground">#808080</color>
+    <color name="buttonContainerBackgroun">#FFFFFF</color> <!-- Same as layout background color -->
+    <color name="colorPrimary">#FFEB3B</color> <!-- Yellow color -->
+    <color name="colorPrimaryDark">#FBC02D</color> <!-- Darker shade of yellow -->
+    <color name="colorAccent">#FFC107</color> <!-- Accent color, can also be yellow or another color -->
+    <color name="colorPrimaryVariant">#FFEB3B</color> <!-- Variant of the primary color -->
+     <color name="shimmer_text_color">#E0E0E0</color>
+
+    <!-- Card background color -->
+    <color name="cardBackground">#FFFFFF</color>
+
+    <!-- Placeholder color for the image -->
+    <color name="placeholderImageColor">#E0E0E0</color>
+      <color name="greyBackground">#F5F5F5</color>
+</resources>
+
+
+
